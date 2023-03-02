@@ -16,21 +16,42 @@
   </head>
   <body>
     <div id="container">
-      <div id="sofa">
-        <!--<img src="./assets/sofa.gif" alt="" />-->
-        <img src="./assets/sofa.png" alt="" />
-        <button>
-          <img src="./assets/close.svg" alt="" />
-          <img src="./assets/360.svg" alt="" />
+      <div id="product-image">
+        <button id="button-360" onclick="toggle()">
+          <img
+            src="./assets/360.svg"
+            alt="Botão para girar o produto em 360 graus"
+          />
         </button>
+
+        <button id="button-close" onclick="toggle()">
+          <img
+            src="./assets/close.svg"
+            alt="Botão para parar o giro de 360 graus"
+          />
+        </button>
+
+        <img
+          id="product-static"
+          src="./assets/sofa.png"
+          alt="Sofá sem a movimentação de 360 graus"
+        />
+
+        <img
+          id="product-360"
+          src="./assets/sofa.gif"
+          alt="Sofá com a movimentação de 360 graus"
+        />
       </div>
 
-      <div id="infos">
+      <div id="product-info">
         <h4>CÓDIGO: 42404</h4>
         <h1>Sofá Margot II - Rosé</h1>
         <p>R$ 4.000</p>
         <button>ADICIONAR À CESTA</button>
       </div>
     </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>

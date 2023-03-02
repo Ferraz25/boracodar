@@ -12,26 +12,32 @@
 body {
   background-color: var(--background);
   display: grid;
-  place-content: center;
   height: 100vh;
+  place-content: center;
 }
 
 body * {
-  color: var(--text-color);
   font-family: "Lato", sans-serif;
+  font-weight: 400;
   line-height: 100%;
+}
+
+#button-close,
+#product-360 {
+  display: none;
 }
 
 #container {
   display: flex;
-  gap: 13px;
+  align-items: center;
+  gap: 63px;
 }
 
-#sofa {
+#product-image {
   position: relative;
 }
 
-#sofa button {
+#product-image button {
   position: absolute;
   right: 0;
 
@@ -40,42 +46,46 @@ body * {
   cursor: pointer;
 }
 
-#infos {
-  padding: 12px;
-  margin-bottom: 20px;
+#product-image > img {
+  width: 449px;
+  height: 222px;
+  object-fit: cover;
 }
 
-#infos h4 {
-  font-weight: 300;
+html.animation button#button-360,
+html.animation img#product-static {
+  display: none;
+}
+
+html.animation button#button-close,
+html.animation img#product-360 {
+  display: initial;
+}
+
+#product-info h4 {
   font-size: 10px;
-  color: var(--text-color);
+  font-weight: 300;
 }
 
-#infos h1 {
+#product-info h1 {
   font-family: "Crimson Pro", serif;
   font-weight: 600;
   font-size: 32px;
-  color: var(--text-color);
-
   margin-top: 12px;
 }
 
-#infos p {
+#product-info p {
   margin-top: 12px;
   opacity: 0.67;
 }
 
-#infos button {
-  background-color: transparent;
-  border: 0.5px solid var(--text-color);
-  border-radius: 999px;
-  padding: 8px 16px;
-
-  font-weight: 400;
+#product-info button {
   font-size: 12px;
   line-height: 16px;
-
+  background: transparent;
   margin-top: 20px;
-
+  padding: 8px 16px;
+  border: 0.5px solid var(--text-color);
+  border-radius: 999px;
   cursor: pointer;
 }
