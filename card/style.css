@@ -89,3 +89,13 @@ html.animation img#product-360 {
   border-radius: 999px;
   cursor: pointer;
 }
+
+@media (max-width: 820px) {
+  #container {
+    display: flex;
+    flex-direction: column;
+    max-width: 270px;
+
+    margin: auto;
+  }
+}
