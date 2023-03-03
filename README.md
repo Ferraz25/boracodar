@@ -1,8 +1,7 @@
 # #boraCodar
 
 <p align="center">
-    Projetos #boraCodar da Rocketseat <br>
-    <a href="https://boracodar.dev">Acesse o desafio desta semana clicando aqui</a><br>
+    Projetos #boraCodar da Rocketseat, desenvolvido por João Victor <br>
     <br><table>
     <thead>
         <tr>
@@ -41,16 +40,16 @@
     <tbody>
         <tr>
             <td>01</td>
-            <td><a href="01">Music Player </a></td>
+            <td><a href="music-player">Music Player </a></td>
             <td>03/03/23</td>
             <td align="center">
-            <a href="01"><img width="300px" src="player-music/.github/preview.png" /></a></td>
+            <a href="music-player"><img width="300px" src="music-player/.github/preview.png" /></a></td>
         </tr>
         <tr>
             <td>02</td>
-            <td><a href="02">Product Card</a></td>
+            <td><a href="card">Product Card</a></td>
             <td>03/03/23</td>
-            <td align="center"><a href="02"><img width="300px" src="card/.github/preview.png" /></a></td>
+            <td align="center"><a href="card"><img width="300px" src="card/.github/preview.png" /></a></td>
         </tr>
     </tbody>
 </table></p>
