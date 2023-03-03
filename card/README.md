@@ -1,4 +1,4 @@
-<h1 align="center"> Player de Música </h1>
+<h1 align="center"> Product Card</h1>
 
 <p align="center">
 #boraCodar são desafios semanais, promovido pela Rocketseat para ensino de tecnologias e WEB.<br/>
@@ -26,6 +26,7 @@ Esses códigos foram desenvolvidos por desenvolvedor front-end João Victor
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
+- JavaScript
 - Git e Github
 - Figma
 
