@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #130f1e;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--bg-color);
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  gap: 16px;
+}
+
+body * {
+  font-family: "Inter", sans-serif;
+  color: var(--text-color);
+}
+
+#container {
+  max-width: 360px;
+  padding-inline: 40px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+p {
+  margin-top: 8px;
+
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.67;
+}
+
+.buttons {
+  margin-top: 100px;
+  display: grid;
+  gap: 32px;
+}
+
+.first-button {
+  --bg-default: #8257e5;
+  --bg-hover: #9674e5;
+}
+
+.second-button {
+  --bg-default: #3c3748;
+  --bg-hover: #6a617f;
+}
+
+.third-button {
+  -bg-default: transparent;
+  -bg-hover: transparent;
+}
+
+button {
+  background-color: var(--bg-default);
+  font-family: "Inter";
+  border: 0;
+  padding: 12px 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  border-radius: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+button:hover {
+  background-color: var(--bg-hover);
+}
+
+button:focus {
+  outline: 2px solid #d9cdf7;
+}
+
+button:disabled {
+  background-color: var(--bg-default);
+  opacity: 0.56;
+  cursor: not-allowed;
+}
+
+.loading {
+  cursor: progress;
+}
+
+.loading i {
+  font-size: 16px;
+  animation: spin 700ms infinite linear;
+}
+
+.movable {
+  cursor: move;
+}
+
+.movable i {
+  font-size: 18px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

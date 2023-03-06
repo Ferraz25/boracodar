@@ -51,5 +51,12 @@
             <td>03/03/23</td>
             <td align="center"><a href="02 - product-card"><img width="300px" src="02 - product-card/.github/preview.png" /></a></td>
         </tr>
+        <tr>
+            <td>03</td>
+            <td><a href="03 - buttons-cursors">Buttons and Cursors </a></td>
+            <td>06/03/23</td>
+            <td align="center">
+            <a href="03 - buttons-cursors"><img width="300px" src="03 - buttons-cursors/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
