@@ -1,4 +1,4 @@
-<h1 align="center"> Buttons and Cursors</h1>
+<h1 align="center">Chat</h1>
 
 <p align="center">
 #boraCodar são desafios semanais, promovido pela Rocketseat para ensino de tecnologias e WEB.<br/>
@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1197534710257750520). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1200070743637495660). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## :memo: Licença
 

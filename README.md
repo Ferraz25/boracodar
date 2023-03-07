@@ -58,5 +58,12 @@
             <td align="center">
             <a href="03 - buttons-cursors"><img width="300px" src="03 - buttons-cursors/.github/preview.png" /></a></td>
         </tr>
+        <tr>
+            <td>04</td>
+            <td><a href="04 - chat">Chat</a></td>
+            <td>07/03/23</td>
+            <td align="center">
+            <a href="04 - chat"><img width="300px" src="04 - chat/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
