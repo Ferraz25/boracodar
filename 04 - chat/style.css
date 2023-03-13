@@ -2,17 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  --webkit-font-smoothing: antialiased;
-  --mox-osx-font-smoothing: grayscale;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 :root {
   --bg-color: #1a1924;
+  --bg-form: #282843;
   --text-color: #e1e1e6;
-  --status-color: #00b37e;
-  --bg-message: #633bbc;
-  --bg-message-you: #07847e;
-  --bg-input: #282843;
+  --color-status: #00b37e;
+  --bg-body: #633bbc;
+  --bg-body-you: #07847e;
 
   font-size: 62.5%; /*1 rem = 10px*/
 }
@@ -34,7 +35,7 @@ body * {
 
   height: 100vh;
   width: 100vw;
-  max-width: 88rem;
+  max-width: 880px;
 
   display: grid;
   grid-template-rows: max-content 1fr max-content;
@@ -54,20 +55,21 @@ body * {
 }
 
 #user-info img {
-  width: 48px;
-  height: 48px;
+  width: 4.8rem;
+  height: 4.8rem;
   object-fit: cover;
   border-radius: 50%;
 }
 
 #user-status .status {
-  color: var(--status-color);
-  font-size: 1.2rem;
   display: flex;
   align-items: baseline;
   gap: 0.4rem;
 
   margin-top: 0.4rem;
+
+  color: var(--color-status);
+  font-size: 1.2rem;
 }
 
 #user-status .status::before {
@@ -75,7 +77,7 @@ body * {
   width: 0.8rem;
   height: 0.8rem;
   display: block;
-  background-color: var(--status-color);
+  background-color: var(--color-status);
   border-radius: 50%;
 }
 
@@ -106,10 +108,9 @@ body * {
 .message .body {
   width: fit-content;
   margin-top: 1rem;
-
-  background: var(--bg-message);
+  background-color: var(--bg-body);
   padding: 1.4rem;
-  border-radius: 0rem 0.8rem 0.8rem 0.8rem;
+  border-radius: 0 0.8rem 0.8rem 0.8rem;
 }
 
 .message:not(.you) {
@@ -125,42 +126,43 @@ body * {
 }
 
 .message.you .body {
-  background-color: var(--bg-message-you);
-  border-radius: 0.8rem 0.8rem 0rem 0.8rem;
+  background-color: var(--bg-body-you);
+  border-radius: 0.8rem 0.8rem 0 0.8rem;
 }
 
 form {
   display: flex;
   align-items: center;
-  background-color: var(--bg-input);
-  border-radius: 999rem;
+  background-color: var(--bg-form);
+  border-radius: 999px;
   padding: 1.4rem 2.4rem;
 }
 
-input {
+form input {
   flex: 1;
   outline: none;
   color: var(--text-color);
 }
 
 form:focus-within {
-  outline: 0.2rem solid white;
+  outline: 2px solid var(--text-color);
 }
 
-input::placeholder {
+form input::placeholder {
   color: var(--text-color);
   font-size: 1.2rem;
   line-height: 1.4rem;
 }
 
-button i {
+form button i {
   color: var(--text-color);
   font-size: 2.4rem;
+
   cursor: pointer;
 }
 
-input,
-button {
+form input,
+form button {
   background-color: transparent;
   border: 0;
 }
