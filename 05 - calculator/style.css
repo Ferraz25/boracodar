@@ -2,24 +2,41 @@
   border: 0;
   margin: 0;
   box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
+  height: 100vh;
+  width: 100vw;
   font-family: "Rubik", sans-serif;
-  background: #8e7ece;
+  background: linear-gradient(180deg, #807ece 0%, #8e7ece 100%);
+
+  display: grid;
+  place-content: center;
 }
 
 #container {
-  background: #2d2a37;
+  background-color: #2d2a37;
   color: #ebebeb;
 
-  padding: 54px 32px;
-  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 188px 52px rgba(0, 0, 0, 0.01), 0px 120px 48px rgba(0, 0, 0, 0.04),
+    0px 68px 41px rgba(0, 0, 0, 0.15), 0px 30px 30px rgba(0, 0, 0, 0.26),
+    0px 8px 17px rgba(0, 0, 0, 0.29), inset 0px 6px 8px rgba(255, 255, 255, 0.1),
+    inset 0px -4px 5px rgba(0, 0, 0, 0.22);
+
+  /* border-radius: 48px; */
+}
+
+#top {
+  margin-top: 54px;
+  padding-inline: 54px;
 }
 
 #top p {
-  display: flex;
-  justify-content: flex-end;
+  text-align: right;
 
   font-size: 20px;
   line-height: 140%;
@@ -29,13 +46,9 @@ body {
 }
 
 #top #result {
+  margin-top: 8px;
   display: flex;
   justify-content: space-between;
-}
-
-#top #result .equals {
-  width: 20px;
-  height: 20px;
 }
 
 #top #result p {
@@ -46,22 +59,21 @@ body {
 }
 
 #container #keyboard {
-  margin-top: 26px;
-  display: flex;
-  place-content: center;
-
-  gap: 20px;
-  padding: 20px;
+  padding: 26px 32px 32px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
 }
 
-#keyboard .row1 div,
-#keyboard .row2 div,
-#keyboard .row3 div,
-#keyboard .row4 div {
-  padding: 15px;
+#keyboard .column1 div,
+#keyboard .column2 div,
+#keyboard .column3 div,
+#keyboard .column4 div {
+  border: 0;
+  width: 64px;
+  height: 64px;
 
-  font-size: 24px;
-  line-height: 28px;
+  margin-bottom: 12px;
 
   background: linear-gradient(
       180deg,
@@ -76,22 +88,40 @@ body {
 
   border-radius: 999px;
 
-  margin-top: 15px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ebebeb;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   cursor: pointer;
 }
 
-#keyboard .row1 div:first-child {
+#keyboard .column1 div:first-child {
   color: #975dfa;
 }
 
-#keyboard .row4 div {
+#keyboard .column4 div {
   background: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0.05) 0.01%,
       rgba(255, 255, 255, 0.05) 100%
     ),
     #462878;
+  box-shadow: 0px 11px 7px rgba(0, 0, 0, 0.01), 0px 7px 7px rgba(0, 0, 0, 0.04),
+    0px 4px 6px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.26),
+    0px 0px 2px rgba(0, 0, 0, 0.29), inset 0px 2px 3px rgba(255, 255, 255, 0.1);
+}
+
+#keyboard .column4 div:last-child {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.15) 0%,
+      rgba(255, 255, 255, 0.05) 100%
+    ),
+    #7f45e2;
   box-shadow: 0px 11px 7px rgba(0, 0, 0, 0.01), 0px 7px 7px rgba(0, 0, 0, 0.04),
     0px 4px 6px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.26),
     0px 0px 2px rgba(0, 0, 0, 0.29), inset 0px 2px 3px rgba(255, 255, 255, 0.1);
