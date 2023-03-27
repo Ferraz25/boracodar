@@ -1,0 +1,98 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background: #8e7ece;
+}
+
+#container {
+  background: #2d2a37;
+  color: #ebebeb;
+
+  padding: 54px 32px;
+  text-align: center;
+}
+
+#top p {
+  display: flex;
+  justify-content: flex-end;
+
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+
+  color: #6b6b6b;
+}
+
+#top #result {
+  display: flex;
+  justify-content: space-between;
+}
+
+#top #result .equals {
+  width: 20px;
+  height: 20px;
+}
+
+#top #result p {
+  font-size: 36px;
+  line-height: 140%;
+
+  color: #ebebeb;
+}
+
+#container #keyboard {
+  margin-top: 26px;
+  display: flex;
+  place-content: center;
+
+  gap: 20px;
+  padding: 20px;
+}
+
+#keyboard .row1 div,
+#keyboard .row2 div,
+#keyboard .row3 div,
+#keyboard .row4 div {
+  padding: 15px;
+
+  font-size: 24px;
+  line-height: 28px;
+
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.05) 0%,
+      rgba(255, 255, 255, 0.05) 100%
+    ),
+    #2d2a37;
+
+  box-shadow: 0px 11px 7px rgba(0, 0, 0, 0.01), 0px 7px 7px rgba(0, 0, 0, 0.04),
+    0px 4px 6px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.26),
+    0px 0px 2px rgba(0, 0, 0, 0.29), inset 0px 2px 3px rgba(255, 255, 255, 0.06);
+
+  border-radius: 999px;
+
+  margin-top: 15px;
+
+  cursor: pointer;
+}
+
+#keyboard .row1 div:first-child {
+  color: #975dfa;
+}
+
+#keyboard .row4 div {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.05) 0.01%,
+      rgba(255, 255, 255, 0.05) 100%
+    ),
+    #462878;
+  box-shadow: 0px 11px 7px rgba(0, 0, 0, 0.01), 0px 7px 7px rgba(0, 0, 0, 0.04),
+    0px 4px 6px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.26),
+    0px 0px 2px rgba(0, 0, 0, 0.29), inset 0px 2px 3px rgba(255, 255, 255, 0.1);
+}
