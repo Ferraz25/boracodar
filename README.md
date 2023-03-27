@@ -65,5 +65,12 @@
             <td align="center">
             <a href="04 - chat"><img width="300px" src="04 - chat/.github/preview.png" /></a></td>
         </tr>
+        <tr>
+            <td>05</td>
+            <td><a href="05 - calculator">Calculator</a></td>
+            <td>27/03/23</td>
+            <td align="center">
+            <a href="05 - calculator"><img width="300px" src="05 - calculator/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
