@@ -1,3 +1,48 @@
 * {
   font-family: "Rubik", sans-serif;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  padding: 78px 24px;
+  background: linear-gradient(167.96deg, #8257e5 0%, #271a45 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#top p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+
+  margin-bottom: 20px;
+}
+
+#ticket {
+  background-color: #fff;
+  border-radius: 24px;
+  padding: 24px 32px;
+}
+
+.container {
+  display: flex;
+  place-content: center;
+  gap: 24px;
+}
+
+#flight-info p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: red;
+
+  /* 
+  color: rgba(0, 0, 0, 0.64); */
 }
