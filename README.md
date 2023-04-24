@@ -72,5 +72,12 @@
             <td align="center">
             <a href="05 - calculator"><img width="300px" src="05 - calculator/.github/preview.png" /></a></td>
         </tr>
+        <tr>
+            <td>06</td>
+            <td><a href="06 - boarding-pass">Boarding Pass</a></td>
+            <td>24/04/23</td>
+            <td align="center">
+            <a href="06 - boarding-pass"><img width="300px" src="06 - boarding-pass/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
