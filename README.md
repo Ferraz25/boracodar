@@ -81,7 +81,7 @@
         </tr>
         <tr>
             <td>07</td>
-            <td><a href="07 - find-your-block">FInd Your Block</a></td>
+            <td><a href="07 - find-your-block">Find Your Block</a></td>
             <td>24/04/23</td>
             <td align="center">
             <a href="07 - find-your-block"><img width="300px" src="07 - find-your-block/.github/preview.png" /></a></td>
