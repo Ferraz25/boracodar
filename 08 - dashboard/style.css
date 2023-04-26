@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+}
+
+.grid {
+  display: grid;
+}
+
+.box {
+  padding: 2.9rem 4.8rem;
+
+  background-color: #363447;
+  box-shadow: 0.3rem 0.4rem 2.6rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.6rem;
+  color: #ffffff;
+
+  line-height: 160%;
+}
+
+#app {
+  background-color: #292738;
+
+  grid-template-columns: 29.6rem max-content max-content;
+  grid-template-rows: max-content;
+  column-gap: 3.2rem;
+  row-gap: 5.9rem;
+
+  min-width: 100vw;
+  width: fit-content;
+  min-height: 100vh;
+  height: fit-content;
+
+  padding: 11.2rem 12.3rem;
+  place-content: center;
+}
+
+.box:nth-child(4) {
+  /*gri-column é um shortand para grid-column-start e grid-column-end*/
+  grid-column: 1/4;
+}
+
+.top {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+}
+
+.bottom {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: auto;
+
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.bottom .item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.bottom .item span:nth-child(1) {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.bottom .item span {
+  --bg-color: #4a4546;
+}
+
+.bottom .item span:nth-child(1)::before {
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  background: var(--bg-color);
+  border-radius: 999px;
+}
+
+.nps {
+  gap: 3.2rem;
+}
+
+.nps .middle {
+  height: 19.7rem;
+  place-content: center;
+
+  /*justify-items se utilizar para centralizar elementos, quando usa-se o display:grid*/
+  justify-items: center;
+  gap: 1.6rem;
+  color: #81fbb8;
+}
+
+.nps .bottom {
+  gap: 1rem;
+}
