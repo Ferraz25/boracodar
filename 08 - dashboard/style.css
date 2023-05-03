@@ -100,7 +100,6 @@ body {
 .nps .middle {
   height: 19.7rem;
   place-content: center;
-
   /*justify-items se utilizar para centralizar elementos, quando usa-se o display:grid*/
   justify-items: center;
   gap: 1.6rem;
@@ -109,4 +108,31 @@ body {
 
 .nps .bottom {
   gap: 1rem;
+}
+
+.middle {
+  display: grid;
+  place-content: center;
+}
+
+svg {
+  --percentage: 0
+  width: 19.7rem;
+  height: 19.7rem;
+  transform: rotate(-90deg);
+}
+
+svg circle {
+  stroke-dasharray: 618;
+  stroke-dashoffset: 618;
+  stroke-width: 35;
+  fill: none;
+}
+
+svg circle:nth-child(1) {
+  stroke-dashoffset: 0;
+}
+
+svg circle:nth-child(2) {
+  stroke-dashoffset: calc(618 - (618 * var(--percentage)) / 100);
 }
