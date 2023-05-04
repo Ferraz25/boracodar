@@ -113,18 +113,21 @@ body {
 .middle {
   display: grid;
   place-content: center;
+
+  position: relative;
 }
 
 svg {
-  --percentage: 0
+  --circumference: 618;
+  --percentage: 0;
   width: 19.7rem;
   height: 19.7rem;
   transform: rotate(-90deg);
 }
 
 svg circle {
-  stroke-dasharray: 618;
-  stroke-dashoffset: 618;
+  stroke-dasharray: var(--circumference);
+  stroke-dashoffset: var(--circumference);
   stroke-width: 35;
   fill: none;
 }
@@ -134,5 +137,33 @@ svg circle:nth-child(1) {
 }
 
 svg circle:nth-child(2) {
-  stroke-dashoffset: calc(618 - (618 * var(--percentage)) / 100);
+  stroke-dashoffset: calc(
+    var(--circumference) - (var(--circumference) * var(--percentage)) / 100
+  );
+  stroke-linecap: round;
+
+  animation: progress 1s ease-in-out;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: var(--circumference);
+    stroke-dashoffset: var(--circumference);
+  }
+}
+
+.middle .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.content h3 {
+  font-size: 3.4rem;
+}
+
+.text-left {
+  text-align: left;
 }
