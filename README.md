@@ -86,5 +86,12 @@
             <td align="center">
             <a href="07 - find-your-block"><img width="300px" src="07 - find-your-block/.github/preview.png" /></a></td>
         </tr>
+        <tr>
+            <td>08</td>
+            <td><a href="08 - dashboard">Dashboard</a></td>
+            <td>19/05/23</td>
+            <td align="center">
+            <a href="08 - dashboard"><img width="300px" src="08 - dashboard/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
