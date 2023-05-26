@@ -93,5 +93,12 @@
             <td align="center">
             <a href="08 - dashboard"><img width="300px" src="08 - dashboard/.github/preview.png" /></a></td>
         </tr>
+        <tr>
+            <td>09</td>
+            <td><a href="09 - currency-converter">Currency Converter</a></td>
+            <td>25/05/23</td>
+            <td align="center">
+            <a href="09 - currency-converter"><img width="300px" src="09 - currency-converter/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
