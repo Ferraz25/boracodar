@@ -100,5 +100,12 @@
             <td align="center">
             <a href="09 - currency-converter"><img width="300px" src="09 - currency-converter/.github/preview.png" /></a></td>
         </tr>
+        <tr>
+            <td>10</td>
+            <td><a href="10 - weather">Weather</a></td>
+            <td>30/05/23</td>
+            <td align="center">
+            <a href="10 - weather"><img width="300px" src="10 - weather/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
