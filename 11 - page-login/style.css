@@ -13,3 +13,116 @@
 body {
   font-size: 1.6rem;
 }
+
+button {
+  all: unset;
+  box-sizing: border-box;
+}
+
+#page {
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+#page > * {
+  width: 50%;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+header {
+  max-width: 35rem;
+}
+
+header img {
+  width: 16rem;
+  height: 5.4rem;
+}
+
+#page > div {
+  padding: 4rem 11.2rem;
+}
+
+main {
+  margin-top: 11.4rem;
+}
+
+.headline {
+  max-width: 35rem;
+}
+
+form {
+  margin-top: 4rem;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+form input {
+  width: 100%;
+
+  background: #ffffff;
+  border: 0.1rem solid #e2e8f0;
+  border-radius: 0.4rem;
+
+  padding: 1.6rem 1.2rem;
+}
+
+form .input-wrapper + .input-wrapper {
+  margin-top: 1.6rem;
+}
+
+.label-wrapper {
+  justify-content: space-between;
+}
+
+form button {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  padding: 1.6rem 2.4rem;
+
+  background: #7c3aed;
+  border-radius: 4px;
+
+  width: 100%;
+
+  font-weight: bold;
+  color: #ffffff;
+
+  margin-block: 3.2rem;
+}
+
+form button:focus {
+  outline: 2px solid black;
+  border-radius: 0.2rem;
+}
+
+form button:hover {
+  background: #9f67ff;
+}
+
+::-ms-reveal {
+  display: none;
+}
+
+.eye {
+  width: 2rem;
+  height: 2rem;
+
+  position: absolute;
+  top: 52%;
+  right: 5%;
+}
+
+.hide {
+  display: none;
+}
