@@ -47,10 +47,6 @@ img {
   object-fit: cover;
 }
 
-header {
-  max-width: 35rem;
-}
-
 header img {
   width: 16rem;
   height: 5.4rem;
@@ -132,7 +128,7 @@ input {
 
 input:focus,
 input:hover {
-  border: 1px solid #7c3aed;
+  border: 0.1rem solid #7c3aed;
   outline: 0;
 }
 
@@ -165,7 +161,7 @@ form button {
   padding: 1.6rem 2.4rem;
 
   background: #7c3aed;
-  border-radius: 4px;
+  border-radius: 0.4rem;
 
   width: 100%;
 
@@ -176,7 +172,7 @@ form button {
 }
 
 form button:focus {
-  outline: 2px solid black;
+  outline: 0.2rem solid black;
   border-radius: 0.2rem;
 }
 
