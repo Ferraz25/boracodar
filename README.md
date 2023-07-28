@@ -114,5 +114,12 @@
             <td align="center">
             <a href="11 - page-login"><img width="300px" src="11 - page-login/.github/preview.png" /></a></td>
         </tr>
+        <tr>
+            <td>12</td>
+            <td><a href="12 - kanban">Kanban</a></td>
+            <td>28/07/23</td>
+            <td align="center">
+            <a href="12 - kanban"><img width="300px" src="12 - kanban/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
