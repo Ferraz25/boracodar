@@ -184,7 +184,7 @@ section.kanban h2 {
 .card {
   padding: 2.4rem;
   background: #ffffff;
-  box-shadow: 0rem 0.4rem 1.6rem #eae2fd;
+  /* box-shadow: 0rem 0.4rem 1.6rem #eae2fd; */
   border-radius: 0.8rem;
 
   line-height: 130%;
@@ -223,8 +223,27 @@ section.kanban h2 {
   padding: 0.4rem 0.8rem;
 }
 
-.cards {
+.dropzone {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
+}
+
+.highlight .card {
+  /* background-color: #7c3aed; */
+  box-shadow: 0rem 0.4rem 1.6rem #7c3aed;
+}
+
+.card,
+.dropzone {
+  transition: 400ms;
+}
+
+.is-dragging {
+  cursor: move;
+  opacity: 0.3;
+}
+
+.over {
+  background-color: #4cd13711;
 }

@@ -10,6 +10,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kanban</title>
+    <link rel="shortcut icon" href="./assets/logo.svg" type="image/x-icon" />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -76,8 +77,8 @@
           <section class="kanban">
             <div class="todo">
               <h2>A fazer</h2>
-              <div class="cards">
-                <div class="card">
+              <div class="dropzone">
+                <div class="card" draggable="true">
                   <h3>#boraCodar um Kanban 👨‍💻</h3>
                   <p>
                     Novo desafio do #boraCodar da RocketSeat, onde é proposto
@@ -89,7 +90,7 @@
                   </div>
                 </div>
 
-                <div class="card">
+                <div class="card" draggable="true">
                   <h3>Manter a ofensiva 🔥</h3>
                   <p>
                     Manter minha atividade na plataforma da RocketSeat para não
@@ -104,8 +105,8 @@
 
             <div class="doing">
               <h2>Fazendo</h2>
-              <div class="cards">
-                <div class="card">
+              <div class="dropzone">
+                <div class="card" draggable="true">
                   <h3>Conferir o novo desafio 🚀</h3>
                   <p>
                     Conferir o novo projeto do #boraCodar para fazê-lo da melhor
@@ -121,13 +122,10 @@
 
             <div class="done">
               <h2>Feito</h2>
-              <div class="cards">
-                <div class="card">
+              <div class="dropzone">
+                <div class="card" draggable="true">
                   <h3>#boraCodar 11 - página de login 👨‍💻</h3>
-                  <p>
-                    Novo desafio do #boraCodar da RocketSeat, onde é proposto
-                    construir uma página de login
-                  </p>
+                  <p>Desafio Página de Login</p>
                   <div class="tags">
                     <span>rocketseat</span>
                   </div>
@@ -147,5 +145,7 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+
+    <script src="./script.js" de></script>
   </body>
 </html>
