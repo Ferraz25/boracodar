@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Montserrat", sans-serif;
+  background-color: #1f2937;
+  color: #fff;
+}
+
+#app {
+  margin: auto;
+  margin-top: 16rem;
+  width: 73.6rem;
+  /* border: 0.1rem solid #fff; */
+  border-radius: 0.8rem;
+
+  background-color: #0e1219;
+}
+
+#main {
+  display: flex;
+  gap: 4rem;
+  padding: 3.2rem;
+}
+
+#inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+label {
+  font-size: 1.4rem;
+  color: #fff;
+  opacity: 0.7;
+}
+
+input {
+  width: 32.8rem;
+  padding: 1.2rem;
+  margin-top: 0.4rem;
+
+  background: #1f2937;
+  outline: none;
+  border: 0.1rem solid #ffffff71;
+  border-radius: 0.4rem;
+}
+
+input::placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+}
+
+input.active {
+  border: 0.1rem solid #9333ea;
+}
+
+input.active::placeholder {
+  color: #fff;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 1.6rem;
+}
+
+.validity {
+  width: 18.2rem;
+}
+
+.cvv {
+  width: 13rem;
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#card .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 0.8rem;
+}
+
+#card .info p {
+  font-size: 1.3rem;
+}
+
+button {
+  padding: 1.6rem 27.2rem;
+
+  margin-bottom: 3.2rem;
+  margin-left: 3.2rem;
+
+  background-color: #9333ea;
+  border: 0;
+  border-radius: 0.4rem;
+  color: #fff;
+  font-size: 1.6rem;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
