@@ -13,68 +13,66 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="app">
-      <div id="main">
-        <div id="inputs">
-          <div class="input">
-            <label for="number-card">Número do cartão</label>
-            <input
-              type="number"
-              name="number-card"
-              id="number-card"
-              placeholder="4716 8039 02|"
-              class="active"
-            />
-          </div>
+    <form>
+      <section id="credit-card">
+        <div class="front"></div>
+        <div class="back"></div>
+      </section>
 
-          <div class="input">
-            <label for="name-card">Nome do titular</label>
-            <input
-              type="text"
-              name="name-card"
-              id="name-card"
-              placeholder="Nome como está no cartão"
-            />
-          </div>
+      <section class="inputs flex">
+        <div class="input">
+          <label for="number-card">Número do cartão</label>
+          <input
+            type="number"
+            id="number-card"
+            placeholder="**** **** **** ****"
+            class="active"
+          />
+        </div>
 
-          <div class="input row">
-            <div class="validity">
-              <label for="validity">Validade</label>
-              <input
-                type="text"
-                name="validity"
-                id="validity"
-                placeholder="mm/aa"
-                class="validity"
-              />
-            </div>
-
-            <div class="cvv">
-              <label for="cvv">CVV</label>
-              <input
-                type="password"
-                name="cvv"
-                id="cvv"
-                placeholder="***"
-                class="cvv"
-              />
-            </div>
+        <div class="input">
+          <label for="name-card">Nome do titular</label>
+          <input
+            type="text"
+            id="name-card"
+            placeholder="Nome como está no cartão"
+            required
+          />
+          <div class="warning">
+            <img src="./assets/warning.svg" alt="Ícone de alerta" />
+            Nome do titular é obrigatório
           </div>
         </div>
 
-        <div id="card">
-          <img src="./assets/credit-card.svg" alt="" />
+        <div class="col-2 flex">
+          <div class="input">
+            <label for="validity">Validade</label>
+            <input type="text" id="validity" placeholder="mm/aa" />
+          </div>
 
-          <div class="info">
-            <img src="./assets/shield-check.svg" alt="" />
-            <p>Seus dados estão seguros</p>
+          <div class="input">
+            <label class="flex help" for="cvv"
+              >CVV
+              <img
+                src="./assets/question.svg"
+                alt="Ícone de ajuda"
+                title="Esse número está, geralmente, na parte de trás do seu cartão"
+              />
+            </label>
+            <input type="password" id="cvv" placeholder="***" />
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="footer">
-        <button>Adicionar cartão</button>
-      </div>
-    </div>
+      <section class="info-security flex">
+        <img src="./assets/shield-check.svg" alt="Ícone de segurança" />
+        Seus dados estão seguros
+      </section>
+
+      <button>Adicionar cartão</button>
+    </form>
+
+    <script src="https://unpkg.com/imask"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
