@@ -121,5 +121,12 @@
             <td align="center">
             <a href="12 - kanban"><img width="300px" src="12 - kanban/.github/preview.png" /></a></td>
         </tr>
+        <tr>
+            <td>13</td>
+            <td><a href="13 - credit-card">Credit Card</a></td>
+            <td>16/08/23</td>
+            <td align="center">
+            <a href="13 - credit-card"><img width="300px" src="13 - credit-card/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
