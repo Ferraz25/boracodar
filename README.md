@@ -128,5 +128,12 @@
             <td align="center">
             <a href="13 - credit-card"><img width="300px" src="13 - credit-card/.github/preview.png" /></a></td>
         </tr>
+        <tr>
+            <td>14</td>
+            <td><a href="14 - upload-component">Upload Component</a></td>
+            <td>21/08/23</td>
+            <td align="center">
+            <a href="14 - upload-component"><img width="300px" src="14 - upload-component/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
