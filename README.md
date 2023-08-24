@@ -135,5 +135,12 @@
             <td align="center">
             <a href="14 - upload-component"><img width="300px" src="14 - upload-component/.github/preview.png" /></a></td>
         </tr>
+        <tr>
+            <td>15</td>
+            <td><a href="15 - pricing-table">Pricing Table</a></td>
+            <td>23/08/23</td>
+            <td align="center">
+            <a href="15 - pricing-table"><img width="300px" src="15 - pricing-table/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>

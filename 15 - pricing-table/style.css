@@ -166,3 +166,90 @@ li i.ph-info {
   padding-top: 3.2rem;
   margin-top: 3.2rem;
 }
+
+section.best {
+  margin-top: 1.6rem;
+  position: relative;
+}
+
+section.best::before {
+  content: "MAIS VANTAJOSO";
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-gray-900);
+
+  display: inline-block;
+
+  background-color: var(--color-orange);
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.6rem;
+
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  top: -1.7rem;
+}
+
+.ultimate .inner {
+  padding-top: 4rem;
+  background-color: var(--color-gray-900);
+}
+
+.ultimate .title,
+.ultimate .price {
+  color: var(--color-gray-50);
+}
+
+.inner p {
+  color: var(--color-purple-100);
+}
+
+button.secondary {
+  background-color: var(--color-purple-100);
+  color: var(--color-white);
+}
+
+button.secondary:hover {
+  background-color: var(--color-purple-200);
+}
+
+.ultimate ul {
+  border-color: var(--color-gray-700);
+}
+
+.ultimate li span {
+  color: var(--color-gray-300);
+}
+
+.ultimate li .ph-info {
+  color: var(--color-gray-500);
+}
+
+/*transition animation */
+section .inner:hover {
+  border-color: var(--color-purple-100);
+}
+
+section .inner {
+  transition: border 300ms;
+}
+
+section:hover {
+  transform: scale(1.05);
+}
+
+section {
+  transition: transform 300ms;
+  animation: appear 400ms backwards var(--delay);
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+}
