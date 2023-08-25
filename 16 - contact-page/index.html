@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="container">
+      <nav class="flex items-center">
+        <h2>Meus contatos</h2>
+
+        <ul>
+          <li>
+            <ion-icon name="add"></ion-icon>
+          </li>
+
+          <li>
+            <ion-icon name="pencil"></ion-icon>
+          </li>
+
+          <li>
+            <ion-icon name="trash"></ion-icon>
+          </li>
+        </ul>
+      </nav>
+
+      <form>
+        <div class="input-wrapper flex items-center">
+          <label class="sr-only" for="filter"
+            >Busque por nome ou dados de contato</label
+          >
+          <ion-icon name="search-outline"></ion-icon>
+          <input
+            id="filter"
+            type="text"
+            placeholder="Busque por nome ou dados de contato"
+          />
+        </div>
+      </form>
+    </header>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
