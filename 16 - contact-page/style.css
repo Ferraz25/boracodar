@@ -11,6 +11,11 @@
   font-family: "Roboto", sans-serif;
 }
 
+html,
+body {
+  overflow: hidden;
+}
+
 body {
   font-size: 1.6rem;
   color: #e1e1e6;
@@ -106,6 +111,18 @@ form {
   display: flex;
   flex-direction: column;
   gap: 5.2rem;
+
+  height: 75vh;
+  overflow-y: scroll;
+}
+
+.contacts::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+.contacts::-webkit-scrollbar-thumb {
+  background: #282843;
+  border-radius: 99.9rem;
 }
 
 .letter {
@@ -133,6 +150,18 @@ form {
 
 .green {
   --color: #07847e;
+}
+
+.pink {
+  --color: #9a0083;
+}
+
+.blue {
+  --color: #008883;
+}
+
+.yellow {
+  --color: #838c00;
 }
 
 .person {
