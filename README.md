@@ -142,5 +142,12 @@
             <td align="center">
             <a href="15 - pricing-table"><img width="300px" src="15 - pricing-table/.github/preview.png" /></a></td>
         </tr>
+        <tr>
+            <td>16</td>
+            <td><a href="16 - contact-page">Contact Page</a></td>
+            <td>26/08/23</td>
+            <td align="center">
+            <a href="16 - contact-page"><img width="300px" src="16 - contact-page/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>

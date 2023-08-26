@@ -195,6 +195,11 @@ form {
   gap: 3.2rem;
 }
 
+.list-wrapper ul:has(li:hover) li:not(:hover) {
+  opacity: 0.4;
+  scale: 0.94;
+}
+
 header nav,
 header form,
 .list-wrapper {
