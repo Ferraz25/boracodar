@@ -156,5 +156,12 @@
             <td align="center">
             <a href="17 - date-picker"><img width="300px" src="17 - date-picker/.github/preview.png" /></a></td>
         </tr>
+        <tr>
+            <td>18</td>
+            <td><a href="18 - character-card">Character Card</a></td>
+            <td>29/08/23</td>
+            <td align="center">
+            <a href="18 - character-card"><img width="300px" src="18 - character-card/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
