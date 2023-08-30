@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transport Widget</title>
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="card flex">
+      <div class="card-drag"></div>
+      <div class="card-header">
+        <h1>Encontre <span>João Victor</span> no local de partida</h1>
+        <p>Chega em 3 minutos (800 metros)</p>
+      </div>
+
+      <div class="card-body flex">
+        <div class="left flex">
+          <div class="driver flex">
+            <div class="driver-avatar">
+              <img
+                src="https://github.com/Ferraz25.png"
+                alt="Imagem de João Victor"
+              />
+            </div>
+            <div class="driver-stars flex">
+              <div class="star">
+                <i class="ph ph-star"></i>
+              </div>
+              <strong>5.0</strong>
+            </div>
+            <div class="driver-name">João Victor</div>
+          </div>
+
+          <div class="car-img">
+            <img
+              src="https://i.ibb.co/JzjQwd5/purple-car.png"
+              alt="Carro roxo"
+            />
+          </div>
+        </div>
+
+        <div class="right">
+          <div class="car-plate">FNE5I72</div>
+          <div class="car-model">Chevrolet Onix Roxo</div>
+        </div>
+      </div>
+
+      <div class="card-footer flex">
+        <div class="input-wrapper flex">
+          <label for="message">Enviar mensagem para João Victor...</label>
+          <input
+            type="text"
+            id="message"
+            placeholder="Enviar mensagem para João Victor..."
+          />
+        </div>
+
+        <div class="phone">
+          <i class="ph ph-phone"></i>
+        </div>
+        <div class="shield">
+          <i class="ph ph-shield-plus"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
