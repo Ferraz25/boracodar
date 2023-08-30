@@ -170,5 +170,12 @@
             <td align="center">
             <a href="19 - transport-widget"><img width="300px" src="19 - transport-widget/.github/preview.png" /></a></td>
         </tr>
+        <tr>
+            <td>20</td>
+            <td><a href="20 - hover-gallery">Hover Gallery</a></td>
+            <td>30/08/23</td>
+            <td align="center">
+            <a href="20 - hover-gallery"><img width="300px" src="20 - hover-gallery/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
