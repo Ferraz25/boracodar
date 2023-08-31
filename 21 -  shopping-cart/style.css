@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+
+  --color-brand-color: #9333ea;
+  --color-brand-color-light: #a855f7;
+  --color-brand-color-lighter: #c084fc;
+  --color-text-color-primary: #f9fafb;
+  --color-text-color-secondary: #e4e4e7;
+  --color-close-button-color: #a1a1aa;
+  --color-stroke-color: #3f3f46;
+  --color-surface-color: #18181b;
+  --color-background-color: #09090b;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: var(--color-background-color);
+}
+
+.body-cart {
+  position: fixed;
+  right: 0;
+  background-color: var(--color-surface-color);
+  height: 100vh;
+  max-width: 42.8rem;
+}
+
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.4rem 4.8rem 2.4rem 3.2rem;
+
+  font-weight: 500;
+  color: var(--color-text-color-secondary);
+
+  border-bottom: 0.1rem solid var(--color-stroke-color);
+}
+
+.cart-header span {
+  font-weight: 700;
+}
+
+.cart-header i {
+  font-size: 2.4rem;
+  color: var(--color-close-button-color);
+  cursor: pointer;
+}
+
+.cart-main {
+  padding: 3.2rem;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+}
+
+.product {
+  display: flex;
+  gap: 2.4rem;
+
+  color: white;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+
+  gap: 1.52rem;
+}
+
+.infos p {
+  height: 4.8rem;
+}
+
+.price {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  justify-content: space-between;
+  width: 23.6rem;
+}
+
+.price span {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.amount {
+  display: flex;
+  gap: 1.1rem;
+  align-items: center;
+}
+
+.amount i {
+  color: var(--color-brand-color-light);
+
+  padding: 1.3rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+
+.ph.ph-minus {
+  border: 0.15rem solid var(--color-stroke-color);
+}
+
+.ph.ph-plus {
+  border: 0.15rem solid var(--color-brand-color-light);
+}
