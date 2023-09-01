@@ -177,5 +177,12 @@
             <td align="center">
             <a href="20 - hover-gallery"><img width="300px" src="20 - hover-gallery/.github/preview.png" /></a></td>
         </tr>
+        <tr>
+            <td>21</td>
+            <td><a href="21 - shopping-cart">Shopping Cart</a></td>
+            <td>01/09/23</td>
+            <td align="center">
+            <a href="21 - shopping-cart"><img width="300px" src="21 - shopping-cart/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
