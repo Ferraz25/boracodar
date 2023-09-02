@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --gray_100: #38343d;
+  --gray_200: #686071;
+  --gray_300: #797085;
+  --gray_400: #f4effa;
+  --gray_500: #fdfcfe;
+  --gradient: linear-gradient(107.54deg, #935fd3 0%, #9245f1 100%);
+  --red: #aa2222;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Heebo", sans-serif;
+
+  background: var(--gradient);
+}
