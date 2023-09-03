@@ -24,3 +24,50 @@ body {
 
   background: var(--gradient);
 }
+
+.card {
+  background-color: var(--gray_500);
+  max-width: 37.5rem;
+  margin: auto;
+  margin-top: 7.2rem;
+  margin-bottom: 11.2rem;
+  border-radius: 1.2rem;
+
+  padding: 2.4rem 2.4rem 1.6rem;
+}
+
+.card .user {
+  display: flex;
+  gap: 1.6rem;
+
+  align-items: center;
+}
+
+.card .user img {
+  width: 4.8rem;
+  height: 4.8rem;
+
+  border-radius: 0.8rem;
+}
+
+.card .info {
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.4rem;
+}
+
+.card .info h3 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+
+  color: var(--gray_100);
+}
+
+.card .info p {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: var(--gray_200);
+}
