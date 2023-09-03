@@ -71,3 +71,68 @@ body {
   line-height: 1.8rem;
   color: var(--gray_200);
 }
+
+.options {
+  margin-top: 2.4rem;
+}
+
+.options .divider {
+  content: "";
+  width: 32.7rem;
+  height: 0.1rem;
+  background-color: var(--gray_400);
+  margin-bottom: 1.6rem;
+  margin-top: 1.6rem;
+}
+
+.section p:first-child {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 100%;
+
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--gray_300);
+
+  margin-bottom: 1.2rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.item1,
+.item2 {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.item1 i,
+.item2 i {
+  font-size: 1.6rem;
+  color: var(--gray_100);
+}
+
+.item1 p,
+.item2 p {
+  flex: 1;
+
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2rem;
+
+  color: var(--gray_100);
+}
+
+.item1 i:last-child,
+.item2 i:last-child {
+  color: var(--gray_300);
+}
+
+.option .section .list .item2 .ph-sign-out,
+.option .section .list .item2 .exit {
+  color: var(--red);
+}

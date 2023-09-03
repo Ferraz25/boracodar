@@ -184,5 +184,12 @@
             <td align="center">
             <a href="21 - shopping-cart"><img width="300px" src="21 - shopping-cart/.github/preview.png" /></a></td>
         </tr>
+        <tr>
+            <td>22</td>
+            <td><a href="22 - profile-settings">Profile Settings</a></td>
+            <td>03/09/23</td>
+            <td align="center">
+            <a href="22 - profile-settings"><img width="300px" src="22 - profile-settings/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
