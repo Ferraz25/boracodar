@@ -18,7 +18,7 @@ body {
 
 #app {
   max-width: 43rem;
-  height: 100vh;
+  /* height: 100vh; */
   background-color: #151515;
 
   margin: auto;
@@ -26,24 +26,77 @@ body {
   margin-bottom: 5rem;
 }
 
-p {
-  font-size: 2.5rem;
-  line-height: 2.5rem;
-  color: #fff;
-
-  text-align: center;
-
-  margin-bottom: 5rem;
+.frame {
+  padding: 0 5.5rem 0 5.4rem;
 }
 
-.frame {
+p {
+  font-size: 3.2rem;
+  line-height: 3.8rem;
+  color: #fff;
+}
+
+.components {
+  padding-top: 9rem;
+  padding-bottom: 11rem;
+
+  display: grid;
+  gap: 8.2rem;
+}
+
+.component {
   display: flex;
-  flex-direction: column;
-  gap: 3.2rem;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.component .bar {
+  width: 28.1rem;
+  height: 0.5rem;
+
+  background-color: #fff;
+  border-radius: 1.2rem;
+
+  position: relative;
+}
+
+.component .bar::before {
+  content: "";
+
+  position: absolute;
+  width: 1.8rem;
+  height: 1.8rem;
+  background-color: #151515;
+  border: 0.15rem solid #fff;
+  border-radius: 99.9rem;
+
+  top: -100%;
+  left: 80%;
+}
+
+.component .color .bar {
+  background: linear-gradient(
+    90deg,
+    #ff0000 5.21%,
+    #ff8a00 16.48%,
+    #ffe600 27.74%,
+    #14ff00 39.35%,
+    #00a3ff 49.37%,
+    #0500ff 61.18%,
+    #ad00ff 72.26%,
+    #ff00c7 83.53%,
+    #ff0000 94.61%
+  );
+}
+
+.component .color .bar::before {
+  background-color: #8b03fb;
+  border: 0.15rem solid #fff;
+
+  left: 65%;
 }
 
 .component i {
   font-size: 2.4rem;
   color: #fff;
-  padding-left: 5rem;
 }

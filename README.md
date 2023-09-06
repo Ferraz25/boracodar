@@ -198,5 +198,12 @@
             <td align="center">
             <a href="23 - multi-step-form"><img width="300px" src="23 - multi-step-form/.github/preview.png" /></a></td>
         </tr>
+        <tr>
+            <td>24</td>
+            <td><a href="24 - lighting-adjustments">Lighting Adjustments</a></td>
+            <td>06/09/23</td>
+            <td align="center">
+            <a href="24 - lighting-adjustments"><img width="300px" src="24 - lighting-adjustments/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
