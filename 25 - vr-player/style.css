@@ -53,3 +53,62 @@ body {
   background: rgba(255, 255, 255, 0.2);
   opacity: 1;
 }
+
+.nav-bar {
+  display: flex;
+  padding: 0.5rem 0.75rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+
+  border-radius: 5rem;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0rem 0.8rem 0.4rem 0rem rgba(0, 0, 0, 0.05),
+    0rem 0.1rem 0.1rem 0rem rgba(255, 255, 255, 0.3) inset,
+    0rem -0.1rem 0rem rgba(255, 255, 255, 0.1) inset;
+  backdrop-filter: blur(1.6rem);
+}
+
+.actions {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.1rem;
+}
+
+.actions i {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #ffffff;
+
+  opacity: 0.8;
+
+  display: flex;
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.adress-bar {
+  display: flex;
+  width: 27.5rem;
+  padding: 0.75rem;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 5rem;
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 0rem -0.1rem 0rem 0rem rgba(255, 255, 255, 0.1) inset,
+    0rem 0.1rem 0rem 0rem rgba(0, 0, 0, 0.2) inset;
+
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9375rem;
+  font-family: Inter;
+  line-height: 1.5rem;
+}
+
+.adress-bar i {
+  width: 1.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+  opacity: 0.8;
+}
