@@ -61,7 +61,7 @@ footer {
   display: flex;
   padding: 0.75rem;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.75rem;
   border-radius: 5rem;
   background: rgba(255, 255, 255, 0.1);
@@ -69,9 +69,12 @@ footer {
     0rem 0.1rem 0.1rem 0rem rgba(255, 255, 255, 0.3) inset,
     0rem -0.1rem 0.1rem 0rem rgba(255, 255, 255, 0.1) inset;
   backdrop-filter: blur(1.6rem);
+
+  height: fit-content;
+  align-self: center;
 }
 
-.side-menu i {
+.side-menu ion-icon {
   display: flex;
   padding: 0.5rem;
   align-items: flex-start;
@@ -84,9 +87,11 @@ footer {
   opacity: 0.8;
 }
 
-.side-menu i:hover {
+.side-menu ion-icon:hover {
   background: rgba(255, 255, 255, 0.2);
   opacity: 1;
+
+  cursor: pointer;
 }
 
 .nav-bar {
@@ -102,6 +107,9 @@ footer {
     0rem 0.1rem 0.1rem 0rem rgba(255, 255, 255, 0.3) inset,
     0rem -0.1rem 0rem rgba(255, 255, 255, 0.1) inset;
   backdrop-filter: blur(1.6rem);
+
+  width: fit-content;
+  justify-self: center;
 }
 
 .actions {
@@ -110,10 +118,11 @@ footer {
   gap: 0.1rem;
 }
 
-.actions i {
+.actions ion-icon {
   width: 1.5rem;
   height: 1.5rem;
   color: #ffffff;
+  border-radius: 0.5rem;
 
   opacity: 0.8;
 
@@ -121,6 +130,29 @@ footer {
   padding: 0.5rem;
   align-items: center;
   justify-content: center;
+}
+
+.actions i.ai-panel-left:hover,
+.actions ion-icon:hover {
+  background: rgba(255, 255, 255, 0.2);
+  opacity: 1;
+
+  cursor: pointer;
+}
+
+.actions i.ai-panel-left {
+  font-size: 1.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 0.5rem;
+
+  color: #ffffff;
+  opacity: 0.8;
 }
 
 .adress-bar {
@@ -141,7 +173,7 @@ footer {
   line-height: 1.5rem;
 }
 
-.address-bar i {
+.address-bar ion-icon {
   width: 1.5rem;
   height: 1.5rem;
   flex-shrink: 0;

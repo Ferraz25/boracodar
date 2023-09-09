@@ -10,7 +10,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <title>VR Player</title>
 
     <link rel="stylesheet" href="./style.css" />
@@ -19,19 +18,19 @@
     <div id="app">
       <header class="nav-bar">
         <div class="actions">
-          <i class="ph ph-sidebar-simple"></i>
-          <i class="ph ph-caret-left"></i>
-          <i class="ph ph-caret-right"></i>
+          <i class="ai-panel-left"></i>
+          <ion-icon name="chevron-back"></ion-icon>
+          <ion-icon name="chevron-forward"></ion-icon>
         </div>
         <div class="address-bar"></div>
         <div class="actions"></div>
       </header>
 
       <aside class="side-menu">
-        <i class="ph ph-play-circle"></i>
-        <i class="ph ph-person-arms-spread"></i>
-        <i class="ph ph-images"></i>
-        <i class="ph ph-magnifying-glass"></i>
+        <ion-icon name="play-circle-outline"></ion-icon>
+        <ion-icon name="accessibility-outline"></ion-icon>
+        <ion-icon name="albums-outline"></ion-icon>
+        <ion-icon name="search-outline"></ion-icon>
       </aside>
 
       <main>
@@ -56,5 +55,14 @@
     <i class="ph ph-copy"></i>
   </body>
 
+  <script src="https://unpkg.com/akar-icons-fonts"></script>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
   <script src="./script.js"></script>
 </html>
