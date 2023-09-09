@@ -20,6 +20,41 @@
 
 body {
   font-size: 1.6rem;
+
+  background-image: url("assets/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+#app {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-template-rows: max-content max-content max-content;
+  grid-template-areas:
+    "aside header"
+    "aside main"
+    "aside footer";
+}
+
+header {
+  grid-area: header;
+}
+
+aside {
+  grid-area: aside;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
 }
 
 .side-menu {
@@ -106,7 +141,7 @@ body {
   line-height: 1.5rem;
 }
 
-.adress-bar i {
+.address-bar i {
   width: 1.5rem;
   height: 1.5rem;
   flex-shrink: 0;
