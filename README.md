@@ -205,5 +205,12 @@
             <td align="center">
             <a href="24 - lighting-adjustments"><img width="300px" src="24 - lighting-adjustments/.github/preview.png" /></a></td>
         </tr>
+        <tr>
+            <td>25</td>
+            <td><a href="25 - vr-player">Vr Player</a></td>
+            <td>11/09/23</td>
+            <td align="center">
+            <a href="25 - vr-player"><img width="300px" src="25 - vr-player/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
