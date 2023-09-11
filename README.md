@@ -212,5 +212,12 @@
             <td align="center">
             <a href="25 - vr-player"><img width="300px" src="25 - vr-player/.github/preview.png" /></a></td>
         </tr>
+        <tr>
+            <td>26</td>
+            <td><a href="26 - june-recipe">June Recipe</a></td>
+            <td>11/09/23</td>
+            <td align="center">
+            <a href="26 - june-recipe"><img width="300px" src="26 - june-recipe/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>

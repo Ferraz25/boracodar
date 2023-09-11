@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --bg-bottom: #9b6647;
+  --bg-top: #feece0;
+  --heading-color: #58190a;
+  --text-color: #ffffff;
+}
+
+body {
+  font-size: 1.6rem;
+
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+}
+
+.top {
+  background-color: var(--bg-top);
+
+  display: flex;
+  align-items: center;
+  padding: 7rem 13.25rem 3.5rem 9.69rem;
+
+  gap: 3.5rem;
+
+  height: 50%;
+}
+
+.top .header {
+  display: flex;
+  flex-direction: column;
+  gap: 2.16rem;
+}
+
+.header .title h1 {
+  font-family: "Source Serif 4", serif;
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: var(--heading-color);
+}
+
+.header .title p {
+  font-family: "Source Serif 4", serif;
+  font-size: 2.375rem;
+  font-weight: 400;
+  color: var(--heading-color);
+}
+
+.header .portions {
+  display: flex;
+  align-items: center;
+  gap: 0.94rem;
+}
+
+.header .portions p {
+  font-family: "Source Serif 4", serif;
+  font-size: 2.1875rem;
+  color: var(--bg-bottom);
+  font-weight: 400;
+}
+
+.header .amount {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+
+  color: var(--bg-bottom);
+}
+
+.header .amount i {
+  font-size: 2rem;
+}
+
+.header .amount p {
+  font-size: 2.5rem;
+  font-family: "Source Serif 4", serif;
+  font-weight: 400;
+}
+
+.bottom {
+  display: flex;
+  height: 50%;
+  padding: 4.625rem 3.125rem;
+  justify-content: center;
+  gap: 4rem;
+
+  background-color: var(--bg-bottom);
+}
+
+.bottom .title-bottom {
+  display: flex;
+  align-items: center;
+  gap: 0.69rem;
+  color: var(--bg-top);
+}
+
+.bottom .title-bottom i {
+  font-size: 2rem;
+}
+
+.bottom .title-bottom h2 {
+  font-size: 2.375rem;
+  font-family: "Source Serif 4", serif;
+  font-weight: 700;
+}
+
+.description {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  color: var(--text-color);
+
+  font-size: 1.75rem;
+  font-weight: 400;
+}
