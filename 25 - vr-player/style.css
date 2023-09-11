@@ -29,16 +29,18 @@ body {
   display: grid;
   place-content: center;
   height: 100vh;
+
+  overflow: hidden;
 }
 
 #app {
   display: grid;
-  grid-template-columns: max-content max-content;
-  grid-template-rows: max-content max-content max-content;
   grid-template-areas:
     "aside header"
     "aside main"
     "aside footer";
+
+  gap: 1.5rem;
 }
 
 header {
@@ -155,7 +157,7 @@ footer {
   opacity: 0.8;
 }
 
-.adress-bar {
+.address-bar {
   display: flex;
   width: 27.5rem;
   padding: 0.75rem;
@@ -178,6 +180,19 @@ footer {
   height: 1.5rem;
   flex-shrink: 0;
   opacity: 0.8;
+}
+
+.rocket {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.rocket ion-icon {
+  width: 1rem;
+  height: 1rem;
+
+  margin-top: -0.2rem;
 }
 
 .screen {
@@ -219,6 +234,8 @@ iframe {
   align-items: center;
   display: flex;
   gap: 1rem;
+
+  justify-self: center;
 }
 
 .interaction .elipse {
@@ -235,4 +252,15 @@ iframe {
   backdrop-filter: blur(0.2rem);
   background: rgba(255, 255, 255, 0.6);
   border-radius: 0.8rem;
+}
+
+#app {
+  animation: appear 400ms 500ms backwards;
+}
+
+@keyframes appear {
+  from {
+    scale: 2;
+    opacity: 0;
+  }
 }

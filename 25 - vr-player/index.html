@@ -22,8 +22,21 @@
           <ion-icon name="chevron-back"></ion-icon>
           <ion-icon name="chevron-forward"></ion-icon>
         </div>
-        <div class="address-bar"></div>
-        <div class="actions"></div>
+
+        <div class="address-bar">
+          <div class="text">Aa</div>
+          <div class="rocket">
+            <ion-icon name="lock-closed"></ion-icon>
+            rocketseat.com
+          </div>
+          <ion-icon name="refresh"></ion-icon>
+        </div>
+
+        <div class="actions">
+          <ion-icon name="share-outline"></ion-icon>
+          <ion-icon name="add-outline"></ion-icon>
+          <ion-icon name="copy-outline"></ion-icon>
+        </div>
       </header>
 
       <aside class="side-menu">
@@ -33,26 +46,16 @@
         <ion-icon name="search-outline"></ion-icon>
       </aside>
 
-      <main>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/hHM-hr9q4mo?si=HbJ2z6vHpnYL_OUX"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+      <main class="screen">
+        <div id="video"></div>
+        <div id="ambient-light"></div>
       </main>
-      <footer>footer</footer>
-    </div>
 
-    <i class="ph ph-text-aa"></i>
-    <i class="ph ph-lock-simple"></i>
-    <i class="ph ph-arrow-clockwise"></i>
-    <i class="ph ph-export"></i>
-    <i class="ph ph-plus"></i>
-    <i class="ph ph-copy"></i>
+      <footer class="interaction">
+        <div class="elipse"></div>
+        <div class="rectangle"></div>
+      </footer>
+    </div>
   </body>
 
   <script src="https://unpkg.com/akar-icons-fonts"></script>
