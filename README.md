@@ -219,5 +219,12 @@
             <td align="center">
             <a href="26 - june-recipe"><img width="300px" src="26 - june-recipe/.github/preview.png" /></a></td>
         </tr>
+        <tr>
+            <td>27</td>
+            <td><a href="27 - page-404">Page 404</a></td>
+            <td>14/09/23</td>
+            <td align="center">
+            <a href="27 - page-404"><img width="300px" src="27 - page-404/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
