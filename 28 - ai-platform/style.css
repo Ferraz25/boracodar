@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --gray-01: #f8fafc;
+  --gray-02: #e2e8f0;
+  --gray-03: #94a3b8;
+  --gray-04: #334155;
+  --gray-05: #1e293b;
+  --gray-06: #0f172a;
+  --gray-07: #020617;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: var(--gray-02);
+
+  background: url("./assets/background.jpg") no-repeat;
+  background-size: cover;
+
+  width: 100%;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 122.6rem;
+  padding: 6rem;
+  gap: 4rem;
+  border-radius: 3.2rem;
+  border: 0.1rem solid var(--gray-04);
+  background-color: rgba(2, 6, 23, 0.8);
+}
+
+header div img {
+  display: flex;
+  align-items: center;
+  padding: 1.2rem;
+  border-radius: 1.6rem;
+  border: 0.1rem solid var(--gray-05);
+  background: var(--gray-06);
+}
+
+h1 {
+  color: var(--gray-01);
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.ia-tools {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.tools {
+  display: flex;
+  padding: 1.6rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 60.8rem;
+  height: 9.6rem;
+
+  border-radius: 0.1rem solid var(--gray-04);
+  background: var(--gray-06);
+}
+
+.tools div {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
