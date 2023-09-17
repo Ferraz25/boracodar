@@ -226,5 +226,12 @@
             <td align="center">
             <a href="27 - page-404"><img width="300px" src="27 - page-404/.github/preview.png" /></a></td>
         </tr>
+        <tr>
+            <td>28</td>
+            <td><a href="28 - ai-platform">Ai Platform</a></td>
+            <td>16/09/23</td>
+            <td align="center">
+            <a href="28 - ai-platform"><img width="300px" src="28 - ai-platform/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
