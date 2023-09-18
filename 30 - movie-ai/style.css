@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --purple: #8323ff;
+  --pink: #ff2daf;
+  --yellow: #feea35;
+  --dark-gray: #1e1f28;
+  --gray: #2b2b37;
+  --medium-gray: #373745;
+  --light-gray: #8b8d9b;
+  --white: #ffffff;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Outfit", sans-serif;
+
+  background: var(
+    --gradientes-gradiente-hover,
+    linear-gradient(91deg, #9f55ff 0.99%, #ff46b9 102.1%)
+  );
+
+  padding: 13.3rem 29.7rem 13.4rem 29.7rem;
+}
+
+#card-container {
+  background-color: var(--dark-gray);
+
+  display: flex;
+  padding: 64px 96px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+}
+
+#recommendations {
+  display: flex;
+}
