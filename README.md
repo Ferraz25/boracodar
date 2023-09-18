@@ -233,5 +233,12 @@
             <td align="center">
             <a href="28 - ai-platform"><img width="300px" src="28 - ai-platform/.github/preview.png" /></a></td>
         </tr>
+        <tr>
+            <td>29</td>
+            <td><a href="29 - before-and-after-with-AI">Before and after with AI</a></td>
+            <td>18/09/23</td>
+            <td align="center">
+            <a href="29 - before-and-after-with-AI"><img width="300px" src="29 - before-and-after-with-AI/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
