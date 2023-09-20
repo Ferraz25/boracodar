@@ -17,6 +17,7 @@
   --medium-gray: #373745;
   --light-gray: #8b8d9b;
   --white: #ffffff;
+  --gradientes-gradiente-logo: #9747ff;
 }
 
 body {
@@ -40,6 +41,45 @@ body {
   justify-content: center;
   align-items: center;
   gap: 36px;
+
+  border-radius: 1.6rem;
+  border: 8px solid var(--gradientes-gradiente-logo);
+
+  box-shadow: 0rem -0.3rem 2.2rem 0rem rgba(0, 0, 0, 0.35);
+}
+
+.top {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.new-recommendation {
+  display: flex;
+  padding: 0.8rem 1.6rem;
+  align-items: center;
+  gap: 0.8rem;
+
+  border-radius: 0.4rem;
+  background: linear-gradient(91deg, #8323ff 0.99%, #ff2daf 102.1%);
+  color: var(--white);
+
+  cursor: pointer;
+}
+
+.new-recommendation button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: var(--white);
+
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+
+  cursor: pointer;
 }
 
 #recommendations {
