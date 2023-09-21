@@ -29,7 +29,9 @@ body {
     linear-gradient(91deg, #9f55ff 0.99%, #ff46b9 102.1%)
   );
 
-  margin: 8.36rem 18.56rem 8.39rem 18.56rem;
+  margin: 5.36rem 18.56rem 8.39rem 18.56rem;
+
+  overflow: hidden;
 }
 
 #card-container {
@@ -64,9 +66,6 @@ body {
 }
 
 .new-recommendation {
-  width: 13.75rem;
-  height: 3rem;
-
   display: flex;
   padding: 0.5rem 1rem;
   align-items: center;
@@ -82,6 +81,13 @@ body {
   line-height: 1.25rem;
 
   cursor: pointer;
+}
+
+.new-recommendation:hover {
+  background: var(
+    --gradientes-gradiente-hover,
+    linear-gradient(91deg, #9f55ff 0.99%, #ff46b9 102.1%)
+  );
 }
 
 .new-recommendation i {
@@ -127,8 +133,77 @@ body {
 .recommendation .note {
   display: flex;
   align-items: center;
+  justify-content: center;
+  gap: 0.27rem;
   color: var(--yellow);
   font-size: 1rem;
   font-weight: 600;
   line-height: 0.9005rem;
+
+  margin-top: 0.4rem;
+}
+
+.recommendation .note i {
+  filter: drop-shadow(0px 0px 14.407779693603516px rgba(254, 234, 53, 0.25));
+}
+
+.recommendation img:hover {
+  box-shadow: 0rem -0.3rem 2.2rem 0rem var(--gradientes-gradiente-logo);
+  border-radius: 1rem;
+}
+
+.infos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 0.47rem;
+
+  color: var(--light-gray);
+}
+
+.duration,
+.calendar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.25rem;
+}
+
+.infos i {
+  font-size: 1.25rem;
+}
+
+.infos p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+
+  margin-top: -0.2rem;
+}
+
+a {
+  display: flex;
+  padding: 1rem 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  margin-top: 0.5rem;
+
+  border-radius: 0.25rem;
+  background: var(--gray);
+
+  text-decoration: none;
+  color: var(--white);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+
+  position: relative;
+}
+
+a:hover {
+  background-color: var(--medium-gray);
 }
