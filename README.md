@@ -240,5 +240,12 @@
             <td align="center">
             <a href="29 - before-and-after-with-AI"><img width="300px" src="29 - before-and-after-with-AI/.github/preview.png" /></a></td>
         </tr>
+        <tr>
+            <td>30</td>
+            <td><a href="30 - movie-ai">Movie AI</a></td>
+            <td>21/09/23</td>
+            <td align="center">
+            <a href="30 - movie-ai"><img width="300px" src="30 - movie-ai/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
