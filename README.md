@@ -247,5 +247,12 @@
             <td align="center">
             <a href="30 - movie-ai"><img width="300px" src="30 - movie-ai/.github/preview.png" /></a></td>
         </tr>
+        <tr>
+            <td>31</td>
+            <td><a href="31 - video-transcription">Video Transcription AI</a></td>
+            <td>28/09/23</td>
+            <td align="center">
+            <a href="31 - video-transcription"><img width="300px" src="31 - video-transcription/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
