@@ -254,5 +254,12 @@
             <td align="center">
             <a href="31 - video-transcription"><img width="300px" src="31 - video-transcription/.github/preview.png" /></a></td>
         </tr>
+        <tr>
+            <td>32</td>
+            <td><a href="32 - asksql">AskSQL</a></td>
+            <td>08/10/23</td>
+            <td align="center">
+            <a href="32 - asksql"><img width="300px" src="32 - asksql/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
