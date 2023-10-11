@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --purple-normal: #8860e6;
+  --purple-dark: #5b409b;
+  --gray-dark: #202024;
+  --gray-light: #f3f4fe;
+  --white: #ffffff;
+  --sucess: #04d361;
+  --danger: #ff8f8f;
+
+  -degrade: var(
+    --Linear,
+    linear-gradient(90deg, #dee0fc -0.07%, #996dff 51.04%, #bc9fff 100.07%)
+  );
+}
+
+body {
+  font-size: 1.6rem;
+}
