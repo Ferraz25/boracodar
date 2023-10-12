@@ -25,4 +25,29 @@
 
 body {
   font-size: 1.6rem;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Space Grotesk", sans-serif;
+  background: url(./assets/img-hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: var(--gray-light);
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.content {
+  width: 30.62rem;
+  height: 24.93rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
 }
