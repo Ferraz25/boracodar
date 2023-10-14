@@ -17,15 +17,16 @@
   --sucess: #04d361;
   --danger: #ff8f8f;
 
-  -degrade: var(
-    --Linear,
-    linear-gradient(90deg, #dee0fc -0.07%, #996dff 51.04%, #bc9fff 100.07%)
+  --degrade: linear-gradient(
+    90deg,
+    #dee0fc -0.07%,
+    #996dff 51.04%,
+    #bc9fff 100.07%
   );
 }
 
 body {
   font-size: 1.6rem;
-  /* font-family: "Roboto", sans-serif; */
   font-family: "Space Grotesk", sans-serif;
   background: url(./assets/img-hero.png);
   background-repeat: no-repeat;
@@ -50,4 +51,180 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
+}
+
+.content h1 {
+  color: var(--gray-light);
+
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3.25rem;
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+
+  background: var(--degrade);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+label {
+  color: var(--gray-light);
+
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 2rem;
+  text-transform: uppercase;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background-color: var(--gray-light);
+  padding: 1rem 0.75rem;
+}
+
+input {
+  border: none;
+  outline: none;
+  width: 100%;
+  color: var(--gray-dark);
+
+  font-family: "Roboto", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+
+  background: var(--gray-light);
+}
+
+input::placeholder {
+  color: var(--gray-dark);
+
+  font-family: "Roboto", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+
+  background: var(--gray-light);
+}
+
+#error {
+  color: var(--danger);
+
+  font-family: "Roboto", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+
+  display: none;
+}
+
+button {
+  display: flex;
+  padding: 1.375rem 2.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  align-self: stretch;
+
+  background: var(--purple-normal);
+
+  color: var(--white);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.ticket {
+  display: flex;
+  background-image: url(./assets/bg-card-ticket.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 43.375rem;
+  height: 25.53988rem;
+}
+
+.ticket-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.ticket-container #cover-ticket {
+  width: 21.6875rem;
+  height: 19.875rem;
+  flex-shrink: 0;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: var(--gray-light);
+  color: var(--gray-dark);
+  width: 16.62rem;
+  height: 19.87rem;
+}
+
+.user-ticket-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.56rem;
+  margin-bottom: 2.25rem;
+}
+
+.user-ticket-info span {
+  color: var(--purple-normal, #8860e6);
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 0.9375rem;
+  letter-spacing: 0.07875rem;
+  text-transform: uppercase;
+}
+
+.user-ticket-info h1 {
+  color: var(--gray-dark);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+}
+
+.user-ticket-info img {
+  width: 7.9375rem;
+  height: 8rem;
+  border-radius: 3.96875rem;
+}
+
+.event-ticket-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.25rem;
+}
+
+.event-ticket-info span {
+  color: var(--gray-dark);
+  font-size: 0.625rem;
+  font-weight: 500;
+  line-height: 1rem;
+  letter-spacing: 0.06563rem;
+  text-transform: uppercase;
+}
+
+.event-ticket-info span:nth-child(2) {
+  font-weight: 700;
 }
