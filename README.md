@@ -261,5 +261,12 @@
             <td align="center">
             <a href="32 - asksql"><img width="300px" src="32 - asksql/.github/preview.png" /></a></td>
         </tr>
+         <tr>
+            <td>33</td>
+            <td><a href="33 - ticket-generator">Ticket Generator</a></td>
+            <td>15/10/23</td>
+            <td align="center">
+            <a href="33 - ticket-generator"><img width="300px" src="33 - ticket-generator/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
