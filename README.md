@@ -268,5 +268,12 @@
             <td align="center">
             <a href="33 - ticket-generator"><img width="300px" src="33 - ticket-generator/.github/preview.png" /></a></td>
         </tr>
+         <tr>
+            <td>34</td>
+            <td><a href="34 - custom-select">Custom Select</a></td>
+            <td>16/10/23</td>
+            <td align="center">
+            <a href="34 - custom-select"><img width="300px" src="34 - custom-select/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
