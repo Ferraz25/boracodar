@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+
+  --blue: #7fc4ed;
+  --blue-dark: #659aba;
+  --gray-100: #faf8fd;
+  --gray-200: #312e3f;
+  --gray-300: #272533;
+  --gray-400: #1d1b26;
+  --gray-500: #0f0e13;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: var(--gray-500);
+  color: var(--gray-100);
+
+  padding: 3.56rem 3.37rem 4.18rem 3.37rem;
+  margin: auto;
+  max-width: 35.75rem;
+}
+
+header {
+  display: flex;
+
+  margin-bottom: 2.94rem;
+}

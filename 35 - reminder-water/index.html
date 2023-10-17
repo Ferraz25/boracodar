@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reminder Water</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <img src="./assets/avatar.png" alt="Avatar" />
+        <p>Boa tarde,</p>
+        <span>João</span>
+        <img src="./assets/aceno.png" alt="" />
+      </header>
+
+      <main>
+        <div class="card">
+          <p>80%</p>
+          <img src="./assets/water.png" alt="Água" />
+          <span>Beber água</span>
+          <p>Meta: 3L</p>
+        </div>
+
+        <div class="bars">
+          <div class="bar">
+            <div class="info">
+              <p>Meta diária</p>
+              <p>3000ml</p>
+            </div>
+            <img src="./assets/slider.png" alt="" />
+          </div>
+
+          <div class="bar">
+            <div class="info">
+              <p>Quantidade por timer</p>
+              <p>300ml</p>
+            </div>
+            <img src="./assets/slider.png" alt="" />
+          </div>
+        </div>
+
+        <div class="timer">
+          <span>00</span>
+          <p>h</p>
+          :
+          <span>01</span>
+          <p>m</p>
+        </div>
+
+        <button>
+          Começar
+          <i data-lucide="chevron-right"></i>
+        </button>
+      </main>
+    </div>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
