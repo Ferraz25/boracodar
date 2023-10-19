@@ -36,20 +36,29 @@ body {
   justify-content: center;
 }
 
-header {
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 20rem;
+  align-items: center;
+}
+
+main .user {
   display: flex;
   gap: 1rem;
   align-items: center;
 
   margin-bottom: 2.94rem;
+
+  /* background-color: red; */
 }
 
-header img {
+main img {
   width: 3.93rem;
   height: 3.93rem;
 }
 
-header .bottom span {
+main .user .hello span {
   color: var(--gray-100);
 
   font-size: 1.5rem;
@@ -57,16 +66,9 @@ header .bottom span {
   line-height: 1.8rem;
 }
 
-header .bottom img {
+main .user .hello img {
   width: 1.36rem;
   height: 1.48rem;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  max-width: 20rem;
-  align-items: center;
 }
 
 main .card {
@@ -197,6 +199,7 @@ button {
   outline: none;
   border: none;
   cursor: pointer;
+  font-family: "Poppins", sans-serif;
 
   color: var(--base-gray-500, #0f0e13);
   text-align: center;
@@ -207,7 +210,24 @@ button {
   letter-spacing: 0.03rem;
 }
 
+button:hover {
+  background: var(--blue-dark);
+}
+
 button svg {
   width: 1.5rem;
   height: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  #container {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    padding: 11.5rem 26.81rem 14.19rem 15.81rem;
+    gap: 6.38rem;
+  }
+
+  aside {
+    margin-top: 7rem;
+  }
 }
