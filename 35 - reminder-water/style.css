@@ -34,6 +34,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  position: relative;
 }
 
 main {
@@ -217,6 +219,75 @@ button:hover {
 button svg {
   width: 1.5rem;
   height: 1.5rem;
+}
+
+dialog::backdrop {
+  opacity: 0.7;
+  background: #121317;
+}
+
+dialog {
+  position: absolute;
+  margin: auto;
+  /* padding: 4.06rem 8.06rem 7.94rem 8.12rem; */
+  width: 18.68rem;
+  height: 15.87rem;
+
+  border-radius: 1.4375rem;
+  background: var(--gray-400);
+  box-shadow: 17px 25px 57px 0px rgba(17, 16, 24, 0.25);
+
+  border: none;
+
+  color: white;
+
+  outline: none;
+}
+
+#close {
+  background-color: var(--gray-200);
+  border-radius: 999px;
+  position: absolute;
+  right: 0.78125rem;
+  top: 0.875rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.25rem;
+
+  cursor: pointer;
+}
+#close [data-lucide="x"] {
+  color: #fff;
+
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+dialog .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 4.4rem;
+}
+
+dialog .info img {
+  width: 2.5rem;
+  height: 3.87rem;
+}
+
+dialog .info p {
+  color: var(--blue);
+  text-align: center;
+
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+  letter-spacing: 0.045rem;
 }
 
 @media (min-width: 768px) {
