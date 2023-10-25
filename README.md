@@ -275,5 +275,12 @@
             <td align="center">
             <a href="34 - custom-select"><img width="300px" src="34 - custom-select/.github/preview.png" /></a></td>
         </tr>
+         <tr>
+            <td>35</td>
+            <td><a href="35 - reminder-water">Reminder Water</a></td>
+            <td>25/10/23</td>
+            <td align="center">
+            <a href="35 - reminder-water"><img width="300px" src="35 - reminder-water/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
