@@ -21,20 +21,20 @@ body {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
 
-  background: var(--surface-element);
+  background: var(--background);
 }
 
 #container {
   border: 1px solid red;
-  max-width: 360px;
+  /* max-width: 25rem; */
   margin: auto;
-  padding: 1rem;
 }
 
 .top {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem;
 }
 
 .top svg {
@@ -45,9 +45,122 @@ body {
   cursor: pointer;
 }
 
+main {
+  background-color: var(--surface);
+  border-radius: 2rem 2rem 0rem 0rem;
+
+  margin-top: 3rem;
+
+  height: 100vh;
+}
+
 .image {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 1rem;
+}
+
+.image img {
+  width: 17.5rem;
+  height: 17.5rem;
+
+  margin-top: -3rem;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+
+  margin-top: 1.5rem;
+}
+
+.infos h2 {
+  color: var(--text-primary);
+
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.main-info {
+  display: flex;
+  padding: 0.5rem 0rem;
+  gap: 1.5rem;
+}
+
+.main-info h3 {
+  color: var(--text-primary);
+
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1rem;
+}
+
+.main-info p {
+  color: var(--text-primary, #242424);
+
+  /* number-md */
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 150% */
+}
+
+.graph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  align-self: stretch;
+}
+
+.protein,
+.carbs,
+.sugar,
+.fat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.table {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.table h5 {
+  color: var(--text-primary);
+
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1rem;
+}
+
+.table p {
+  color: var(--text-primary);
+  text-align: right;
+
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
+.scale {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5rem;
+  align-self: stretch;
+}
+
+.scale .rectangule {
+  height: 0.5rem;
+  flex: 1 0 0;
+  border-radius: 5rem;
+  background: var(--primary, #3bab1e);
 }
