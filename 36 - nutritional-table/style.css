@@ -25,7 +25,6 @@ body {
 }
 
 #container {
-  border: 1px solid red;
   /* max-width: 25rem; */
   margin: auto;
 }
@@ -74,6 +73,10 @@ main {
   gap: 1.5rem;
 
   margin-top: 1.5rem;
+
+  width: 100%;
+
+  padding: 1rem;
 }
 
 .infos h2 {
@@ -87,7 +90,15 @@ main {
 .main-info {
   display: flex;
   padding: 0.5rem 0rem;
-  gap: 1.5rem;
+  gap: 4.5rem;
+}
+
+.energy,
+.portion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-info h3 {
@@ -99,22 +110,20 @@ main {
 }
 
 .main-info p {
-  color: var(--text-primary, #242424);
+  color: var(--text-primary);
 
-  /* number-md */
-  font-family: Poppins;
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5rem; /* 150% */
+  line-height: 1.5rem;
 }
 
 .graph {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 1rem;
-  align-self: stretch;
+  padding: 1rem;
 }
 
 .protein,
@@ -130,7 +139,8 @@ main {
 .table {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+
+  gap: 14rem;
 }
 
 .table h5 {
@@ -163,4 +173,26 @@ main {
   flex: 1 0 0;
   border-radius: 5rem;
   background: var(--primary, #3bab1e);
+}
+
+button {
+  display: flex;
+  width: 18.5rem;
+  padding: 1rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin: auto;
+  margin-top: 2rem;
+
+  border-radius: 1rem;
+  background: var(--primary, #3bab1e);
+  box-shadow: 0px 8px 24px 0px rgba(59, 171, 30, 0.25);
+  border: none;
+  outline: none;
+
+  color: var(--text-cta);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: normal;
 }
