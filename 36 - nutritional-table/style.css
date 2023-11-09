@@ -166,13 +166,23 @@ main {
   align-items: flex-start;
   gap: 0.5rem;
   align-self: stretch;
+  max-width: 200px;
 }
 
 .scale .rectangule {
   height: 0.5rem;
+  /* width: 2.67rem; */
   flex: 1 0 0;
   border-radius: 5rem;
   background: var(--primary, #3bab1e);
+}
+
+.position {
+  gap: 13rem;
+}
+
+.position-carbs {
+  gap: 11rem;
 }
 
 button {
