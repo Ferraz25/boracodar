@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --opal: rgba(255, 255, 255, 1);
+  --opal-12: rgba(255, 255, 255, 0.12);
+  --onyx: rgba(0, 0, 0, 1);
+  --amethyst: rgba(205, 165, 248, 1);
+  --amethyst-24: rgba(205, 165, 248, 0.24);
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+}
