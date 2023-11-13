@@ -282,5 +282,12 @@
             <td align="center">
             <a href="35 - reminder-water"><img width="300px" src="35 - reminder-water/.github/preview.png" /></a></td>
         </tr>
+         <tr>
+            <td>36</td>
+            <td><a href="36 - nutritional-table">Nutritional Table</a></td>
+            <td>13/11/23</td>
+            <td align="center">
+            <a href="36 - nutritional-table"><img width="300px" src="36 - nutritional-table/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
