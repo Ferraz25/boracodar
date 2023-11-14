@@ -19,4 +19,93 @@
 body {
   font-size: 1.6rem;
   font-family: "Inter", sans-serif;
+  background-color: var(--amethyst-24);
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.content {
+  color: var(--opal-12);
+  position: absolute;
+
+  margin-left: -2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.navigation {
+  display: flex;
+  padding: 1.03rem 0.96rem 1.71rem 0.96rem;
+  justify-content: center;
+  gap: 6.87rem;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+
+  margin-left: -1.2rem;
+  margin-top: 1.2rem;
+}
+
+.navigation h5 {
+  color: var(--amethyst);
+  font-size: 1.0625rem;
+  font-weight: 700;
+  line-height: 1.875rem;
+}
+
+.navigation p {
+  color: var(--opal);
+  text-align: right;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  line-height: 1.21875rem;
+}
+
+.content {
+  align-items: center;
+}
+
+.carousel.large {
+  margin-top: -2rem;
+  width: 15rem;
+}
+
+.carousel.minus {
+  width: 12rem;
+}
+
+.carousel {
+  background-color: var(--opal-12);
+  border-radius: 1.2rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.carousel .top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel .middle h5 {
+  color: var(--opal);
+  font-size: 1.0625rem;
+  font-weight: 600;
+  line-height: 1.21875rem;
+}
+
+.carousel .middle p {
+  color: var(--amethyst);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.21875rem;
 }

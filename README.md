@@ -289,5 +289,12 @@
             <td align="center">
             <a href="36 - nutritional-table"><img width="300px" src="36 - nutritional-table/.github/preview.png" /></a></td>
         </tr>
+        <tr>
+            <td>37</td>
+            <td><a href="37 - smartwatch">SmartWatch</a></td>
+            <td>14/11/23</td>
+            <td align="center">
+            <a href="37 - smartwatch"><img width="300px" src="37 - smartwatch/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
