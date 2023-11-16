@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --grey-1: #d9d9d9;
+  --grey-2: #565e6d;
+  --grey-3: #252c3a;
+  --grey-4: #1d2330;
+  --grey-5: #181d28;
+  --grey-6: #161a24;
+  --green-light: #abf770;
+  --green-dark: #5cad1d;
+  --red-light: #f77070;
+  --red-dark: #ab3030;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Sora", sans-serif;
+  background-color: #996dff;
+}
