@@ -15,7 +15,6 @@
   --color-color-background: #f5f5f5;
   --color-font-heading: #333333;
   --color-font-text: #666666;
-  --color-font-on-highlight: #ffffff;
 }
 
 body {
@@ -26,101 +25,85 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  height: 100vh;
 }
 
-.wrapper {
+.box {
   background-color: var(--color-color-card-primary);
-
-  width: 35.5rem;
+  box-shadow: 0px 0.8rem 3.2rem rgba(0, 0, 0, 0.16);
   padding: 3.2rem;
   border-radius: 1.6rem;
+
+  width: fit-content;
 }
 
-.wrapper header {
+#app {
+  display: grid;
+  grid-template-rows: 4.8rem 1fr;
+  gap: 2.4rem;
+}
+
+header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
 
-.wrapper header i {
-  font-size: 2.4rem;
-  color: var(--color-font-text);
-  cursor: pointer;
-}
-
-.wrapper header p {
   font-weight: 700;
   color: var(--color-font-heading);
 }
 
-.wrapper header .month {
+header i {
+  padding: 1.6rem;
+  border-radius: 50%;
+  color: var(--color-font-text);
+}
+
+header i:hover {
+  background-color: var(--color-color-item-on-hover);
+  cursor: pointer;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+}
+
+main > div {
+  width: 8.2rem;
+  height: 4rem;
+
   display: flex;
   align-items: center;
   justify-content: center;
 
-  gap: 0.8rem;
-}
-
-.calendar {
-  margin-top: 2.4rem;
-}
-
-.calendar ul {
-  display: flex;
-  list-style: none;
-  flex-wrap: wrap;
-  text-align: center;
-}
-
-.calendar ul li {
-  position: relative;
-  width: calc(100% / 7);
-}
-
-.calendar .weeks {
-  margin-top: 2.4rem;
-  margin-bottom: 0.4rem;
-}
-
-.calendar .weeks li {
-  font-size: 1.2rem;
-  font-weight: 400;
-  color: var(--color-font-text);
-}
-
-.calendar .days li {
-  margin-top: 2rem;
   color: var(--color-font-text);
 
-  z-index: 1;
   cursor: pointer;
+
+  transition: all 300ms;
 }
 
-.calendar .days li:before {
-  position: absolute;
-  content: "";
-  height: 4rem;
-  width: 4rem;
-  top: 50%;
-  left: 50%;
-  z-index: -1;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
+main > div:hover {
+  background-color: var(--color-color-item-on-hover);
+  border-radius: 0.8rem;
 }
 
-.days li:hover::before {
-  background: var(--color-color-background);
-}
-
-.days li.inactive {
-  opacity: 0.3;
-}
-
-.days li.active {
-  color: var(--color-color-card-primary);
-}
-
-.days li.active::before {
+main > div.active {
   background-color: var(--color-color-item-highlight);
+  border-radius: 0.8rem;
+  font-weight: 700;
+  color: var(--color-color-card-primary);
+
+  position: relative;
+}
+
+main > div.active::after {
+  content: "";
+  width: 0.4rem;
+  height: 0.4rem;
+  background-color: var(--color-color-card-primary);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0.6rem;
 }
